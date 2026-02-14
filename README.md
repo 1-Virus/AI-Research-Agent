@@ -5,10 +5,10 @@ An end-to-end automation pipeline built in n8n that performs real-time web resea
 This project automates the manual task of gathering and summarizing information from the web. It utilizes an Agentic Workflow to browse the live internet, synthesize data, and update a centralized database (Google Sheets) automatically.
 
 🛠️ Tech Stack
-Orchestration: n8n
-AI Model: Llama 3 (via Groq LPU for sub-second inference)
-Search Engine: Tavily AI (Optimized for LLM agents)
-Storage: Google Sheets & Google Drive
+- Orchestration: n8n
+- AI Model: Llama 3 (via Groq LPU for sub-second inference)
+- Search Engine: Tavily AI (Optimized for LLM agents)
+- Storage: Google Sheets & Google Drive
 
 ✨ Key Features
 - Data Retrieval: Pulls research topics automatically from a Google Sheet using structured read operations.
